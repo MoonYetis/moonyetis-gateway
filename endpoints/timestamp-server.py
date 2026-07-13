@@ -16,7 +16,7 @@ import json, os, hashlib, time, base64
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.request import Request, urlopen
 
-RPC_HOST = os.environ.get("FB_RPC_HOST", "100.90.169.23")
+RPC_HOST = os.environ.get("FB_RPC_HOST", "YOUR_TAILSCALE_IP")
 RPC_PORT = os.environ.get("FB_RPC_PORT", "8332")
 RPC_USER = os.environ.get("FB_RPC_USER", "YOUR_RPC_USER")
 RPC_PASS = os.environ.get("FB_RPC_PASS", "YOUR_RPC_PASS")
