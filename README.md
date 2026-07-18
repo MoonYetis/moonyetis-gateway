@@ -1,11 +1,13 @@
-# 🌙 MoonYetis x402 Gateway
+# 🌙 MoonYetis x402 Data Endpoints
 
-> **The first commercial x402 API gateway on Fractal Bitcoin.**
-> Pay-per-call data endpoints for autonomous AI agents — settled in FB, no accounts, no API keys.
+> **The first data services running on x402 — pay-per-call on-chain data for autonomous AI agents.**
+> Verifiable RNG, balance lookups, and timestamp notarization. Settled in FB, no accounts, no API keys.
 
 ## What is this?
 
-MoonYetis x402 Gateway is a production deployment of pay-per-call API endpoints on Fractal Bitcoin. AI agents pay FB (Fractal Bitcoin) for each API call using the [x402 protocol](https://github.com/thelonelybit/os-x402) — no registration, no credit cards, no API key management.
+MoonYetis provides production pay-per-call **data endpoints** on Fractal Bitcoin. AI agents pay FB (Fractal Bitcoin) for each API call using the [x402 protocol](https://github.com/thelonelybit/os-x402) — no registration, no credit cards, no API key management.
+
+The x402 payment rail is built and maintained by [The Lonely Bit](https://x.com/Fractal_TLB) / [UniSat](https://unisat.io). MoonYetis builds **on top of** this rail — we are a data service provider, not a competing rail. Think of x402 as the payment processor and MoonYetis as the API catalog.
 
 ```
 Agent → GET /rng/v1/rng → 402 Payment Required (0.5 FB)
